@@ -1,22 +1,29 @@
 body {
-    background-color: rgb(137, 197, 242);
+    background-color: burlywood;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(to bottom right, #542437 0%, #CDB380 100%) 100% no-repeat;
 }
 
-h1 {
-    color: black;
-    float: right;
-    padding-top: 40px;
-    padding-right: 400px;
-    font-size: 40px;
-}
-
-p {
-    color: black;
-    float: right;
-    padding-top: 400px;
-    font-size: 20px;
-}
-
-.image {
+.column {
     float: left;
+    font-size: 30px;
+    padding-left: 300px;
+    height: 10px;
+}
+
+.column1 {
+    float: right;
+    width: 25%;
+    font-size: 15px;
+    padding-right: 200px;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.image1 {
+    padding-top: 300px;
+    padding-left: 150px;
 }
